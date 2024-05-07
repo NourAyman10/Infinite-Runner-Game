@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &958390805135639452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 958390805135639454}
+  - component: {fileID: 958390805135639453}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &958390805135639454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958390805135639452}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &958390805135639453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958390805135639452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 108c202892fdffa4dac30dfdd27b3986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: efc33ee2b8e6ea74b8cfda7dee06077c, type: 3}
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 7a0ad1a6ed6b96e4a99dba17d06fbf06, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PickCoin
+    clip: {fileID: 8300000, guid: 8211c9ef4c15cd540818e6276bde8a8d, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 4a1df8e240284b64d9c62f9b6ec484bd, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Slide
+    clip: {fileID: 8300000, guid: f8e204aedd63fcf4ab7a300aa5160d2a, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Step
+    clip: {fileID: 8300000, guid: 7c4c847b56f133a4d8fcb72dee79fd78, type: 3}
+    volume: 0.3
+    loop: 1
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: a6c7f840aae67ad4ca3086c3aabde53b, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
